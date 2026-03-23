@@ -13,8 +13,8 @@ from sklearn.linear_model import LogisticRegression
 # 1. SETUP PATHS
 # ============================================================
 # Update these paths to match your local machine directory
-TRAIN_BASE_DIR = "/Users/huangshiqi/Desktop/matching learning/week 10/preprint_train"
-TEST_BASE_DIR = "/Users/huangshiqi/Desktop/matching learning/week 10/preprint_test"
+TRAIN_BASE_DIR = "preprint_train"
+TEST_BASE_DIR = "preprint_test"
 
 TRAIN_META_PATH = os.path.join(TRAIN_BASE_DIR, "metadata_train.csv")
 TRAIN_LABEL_PATH = os.path.join(TRAIN_BASE_DIR, "y_train.csv")
